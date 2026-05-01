@@ -1,0 +1,9 @@
+export default function HomePage() {
+  return (
+    <main style={{ padding: 24, fontFamily: 'system-ui, sans-serif' }}>
+      <h1>ArgOS Evolution</h1>
+      <p>Governed personal OS control plane.</p>
+      <a href="/dashboard">Open Dashboard</a>
+    </main>
+  );
+}
